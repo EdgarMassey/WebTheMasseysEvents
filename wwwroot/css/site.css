@@ -714,3 +714,12 @@ a.event-link {
     cursor: pointer;
     display: block;
 }
+.current-list-thumb {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: 50% 15%;
+    border-radius: 8px;
+    display: block;
+    flex-shrink: 0;
+}

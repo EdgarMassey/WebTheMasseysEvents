@@ -14,9 +14,9 @@ Const NEXT_BUTTON = "&#9658" 'Text or graphic used for the next navigation butto
 
 <p align="left">
 
-<font size="2"><a target="_self" href="http://www.themasseys.net/familypix/">
+<font size="2"><a target="_self" href="https:/	/familypix/">
 Back to the main picture 
-archive</a></font><a target="_self" href="http://www.themasseys.net/familypix/">
+archive</a></font><a target="_self" href="https://www.themasseys.net/familypix/">
 <%
 
 Main

@@ -6,7 +6,7 @@ cover:
 number: 32
 highlight: True
 tags: [Graduation]
-link:  http://www.themasseys.net/familypix/2002/2002-05-EmmasGrad/Dear_emma.htm
+link:  https://www.themasseys.net/familypix/2002/2002-05-EmmasGrad/Dear_emma.htm
 linkText: Emmas graduation
 
 ---

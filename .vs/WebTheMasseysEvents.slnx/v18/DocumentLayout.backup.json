@@ -3,16 +3,76 @@
   "WorkspaceRootPath": "C:\\Github\\WebTheMasseysEvents\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\content\\events\\2005-05.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:content\\events\\2005-05.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\content\\events\\2002-05_emmasgrad.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:content\\events\\2002-05_emmasgrad.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\photos\\events\\2015-06\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\photos\\events\\2015-06\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\photos\\events\\2010-10\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\photos\\events\\2010-10\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\photos\\events\\2010-06_croatia\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\photos\\events\\2010-06_croatia\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\photos\\events\\2002-05_emmasgrad\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\photos\\events\\2002-05_emmasgrad\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\photos\\events\\1998-07_masseypix\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\photos\\events\\1998-07_masseypix\\-viewer.asp||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\home\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\current.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\current.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\currentitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\currentitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\currentitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\currentitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -25,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\ourkids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysevents\\pages\\ourkids.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,47 +102,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAALUCAAAAAAAAAAAkwLwCAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAALUCAAAAAAAAAAAkwNQCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-23T18:34:54.353Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CurrentItem.cshtml",
-              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\CurrentItem.cshtml",
-              "RelativeDocumentMoniker": "Pages\\CurrentItem.cshtml",
-              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\CurrentItem.cshtml",
-              "RelativeToolTip": "Pages\\CurrentItem.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T11:11:51.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Event.cshtml",
-              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Event.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Event.cshtml",
-              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Event.cshtml",
-              "RelativeToolTip": "Pages\\Event.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T10:44:45.627Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -113,29 +134,148 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-18T15:59:37.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2005-05.md",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Content\\Events\\2005-05.md",
+              "RelativeDocumentMoniker": "Content\\Events\\2005-05.md",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Content\\Events\\2005-05.md",
+              "RelativeToolTip": "Content\\Events\\2005-05.md",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-18T15:57:13.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "2002-05_EmmasGrad.md",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Content\\Events\\2002-05_EmmasGrad.md",
+              "RelativeDocumentMoniker": "Content\\Events\\2002-05_EmmasGrad.md",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Content\\Events\\2002-05_EmmasGrad.md",
+              "RelativeToolTip": "Content\\Events\\2002-05_EmmasGrad.md",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-18T15:27:44.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "-Viewer.asp",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2015-06\\-Viewer.asp",
+              "RelativeDocumentMoniker": "wwwroot\\Photos\\Events\\2015-06\\-Viewer.asp",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2015-06\\-Viewer.asp",
+              "RelativeToolTip": "wwwroot\\Photos\\Events\\2015-06\\-Viewer.asp",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJQSURBVDhPdZIxaBNRGMd/TU\u002B4gw530MIdVPAgFRKokIBgHU8cGuhQx5ZObtqtxamICN0aXOpm3eIg2C1xS4dCMhQasSVRIl5R4Q4auBuE97CHz\u002BEuJS3xv3yP733v///\u002B7/smGEH98LsCCYC8yJIJgIRkeAOVhYJjWUaIUmr4FjKCcRAXSgmhVCSUevO\u002BpUqLj1UUCRsgd4XhP9BHzjIR7DzfwFtZD6JI2NcIhk2OgZbFRLL5sgqAt7IeDNMw6huQCTS/tGnGLYK\u002BSZEy3l2H1eUK1mwBEth5tT3eQhxLqgfv6EzXWL3nsbVWpmnX2Pl4TO8sxCu5l7VXCZLUQussoCX3EEh6skfjVEcPt\u002BjlffZO6ogExDgCmaRx/yAkOrTpHHWpn7VoHroEHBPNNDiWnbQoMeA6AQlsPtum265jWZtEn4rE5wGR5sMvC6PvEA\u002ByncjEcgDqZ10FnZrqnjaRcZfqYhtXtDC0FWQYIGUDzl303gIlrYAcmVcOIGxXMWWTct5FyhBb73LfqCH8DuKbA0EBKX30AVTyXrqdww7UyYYyHTPjS6njQUzJ7vD64QfkiYMMAwrTPk\u002BXypTnC8iRtZ68o/VezN12kHIAss/MpI9BjPwD/a8Gj57s4c3f5MFCkTnXJfmrQQL9H7/pfW6SKyy/ToWlwJ3yKeUl9qyJbrrU2yb7b3dxb7mYU2b6cZm6yBZcK3qrE7U1XWGWqCzqtNsgQsAG/4aDkRg0jsJUJAGRAOiXU5jIrACwu2Sq5rmDH\u002BtYGgSahW6ZoFujZVfwD3JCJs/5kA3VAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-18T15:26:53.686Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SiteFlagsService.cs",
-              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Services\\SiteFlagsService.cs",
-              "RelativeDocumentMoniker": "Services\\SiteFlagsService.cs",
-              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Services\\SiteFlagsService.cs",
-              "RelativeToolTip": "Services\\SiteFlagsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:41:55.67Z",
+              "Title": "-Viewer.asp",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2010-10\\-Viewer.asp",
+              "RelativeDocumentMoniker": "wwwroot\\Photos\\Events\\2010-10\\-Viewer.asp",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2010-10\\-Viewer.asp",
+              "RelativeToolTip": "wwwroot\\Photos\\Events\\2010-10\\-Viewer.asp",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJQSURBVDhPdZIxaBNRGMd/TU\u002B4gw530MIdVPAgFRKokIBgHU8cGuhQx5ZObtqtxamICN0aXOpm3eIg2C1xS4dCMhQasSVRIl5R4Q4auBuE97CHz\u002BEuJS3xv3yP733v///\u002B7/smGEH98LsCCYC8yJIJgIRkeAOVhYJjWUaIUmr4FjKCcRAXSgmhVCSUevO\u002BpUqLj1UUCRsgd4XhP9BHzjIR7DzfwFtZD6JI2NcIhk2OgZbFRLL5sgqAt7IeDNMw6huQCTS/tGnGLYK\u002BSZEy3l2H1eUK1mwBEth5tT3eQhxLqgfv6EzXWL3nsbVWpmnX2Pl4TO8sxCu5l7VXCZLUQussoCX3EEh6skfjVEcPt\u002BjlffZO6ogExDgCmaRx/yAkOrTpHHWpn7VoHroEHBPNNDiWnbQoMeA6AQlsPtum265jWZtEn4rE5wGR5sMvC6PvEA\u002ByncjEcgDqZ10FnZrqnjaRcZfqYhtXtDC0FWQYIGUDzl303gIlrYAcmVcOIGxXMWWTct5FyhBb73LfqCH8DuKbA0EBKX30AVTyXrqdww7UyYYyHTPjS6njQUzJ7vD64QfkiYMMAwrTPk\u002BXypTnC8iRtZ68o/VezN12kHIAss/MpI9BjPwD/a8Gj57s4c3f5MFCkTnXJfmrQQL9H7/pfW6SKyy/ToWlwJ3yKeUl9qyJbrrU2yb7b3dxb7mYU2b6cZm6yBZcK3qrE7U1XWGWqCzqtNsgQsAG/4aDkRg0jsJUJAGRAOiXU5jIrACwu2Sq5rmDH\u002BtYGgSahW6ZoFujZVfwD3JCJs/5kA3VAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-18T15:26:52.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "-Viewer.asp",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2010-06_Croatia\\-Viewer.asp",
+              "RelativeDocumentMoniker": "wwwroot\\Photos\\Events\\2010-06_Croatia\\-Viewer.asp",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2010-06_Croatia\\-Viewer.asp",
+              "RelativeToolTip": "wwwroot\\Photos\\Events\\2010-06_Croatia\\-Viewer.asp",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJQSURBVDhPdZIxaBNRGMd/TU\u002B4gw530MIdVPAgFRKokIBgHU8cGuhQx5ZObtqtxamICN0aXOpm3eIg2C1xS4dCMhQasSVRIl5R4Q4auBuE97CHz\u002BEuJS3xv3yP733v///\u002B7/smGEH98LsCCYC8yJIJgIRkeAOVhYJjWUaIUmr4FjKCcRAXSgmhVCSUevO\u002BpUqLj1UUCRsgd4XhP9BHzjIR7DzfwFtZD6JI2NcIhk2OgZbFRLL5sgqAt7IeDNMw6huQCTS/tGnGLYK\u002BSZEy3l2H1eUK1mwBEth5tT3eQhxLqgfv6EzXWL3nsbVWpmnX2Pl4TO8sxCu5l7VXCZLUQussoCX3EEh6skfjVEcPt\u002BjlffZO6ogExDgCmaRx/yAkOrTpHHWpn7VoHroEHBPNNDiWnbQoMeA6AQlsPtum265jWZtEn4rE5wGR5sMvC6PvEA\u002ByncjEcgDqZ10FnZrqnjaRcZfqYhtXtDC0FWQYIGUDzl303gIlrYAcmVcOIGxXMWWTct5FyhBb73LfqCH8DuKbA0EBKX30AVTyXrqdww7UyYYyHTPjS6njQUzJ7vD64QfkiYMMAwrTPk\u002BXypTnC8iRtZ68o/VezN12kHIAss/MpI9BjPwD/a8Gj57s4c3f5MFCkTnXJfmrQQL9H7/pfW6SKyy/ToWlwJ3yKeUl9qyJbrrU2yb7b3dxb7mYU2b6cZm6yBZcK3qrE7U1XWGWqCzqtNsgQsAG/4aDkRg0jsJUJAGRAOiXU5jIrACwu2Sq5rmDH\u002BtYGgSahW6ZoFujZVfwD3JCJs/5kA3VAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-18T15:26:27.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "-Viewer.asp",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2002-05_EmmasGrad\\-Viewer.asp",
+              "RelativeDocumentMoniker": "wwwroot\\Photos\\Events\\2002-05_EmmasGrad\\-Viewer.asp",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\2002-05_EmmasGrad\\-Viewer.asp",
+              "RelativeToolTip": "wwwroot\\Photos\\Events\\2002-05_EmmasGrad\\-Viewer.asp",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJQSURBVDhPdZIxaBNRGMd/TU\u002B4gw530MIdVPAgFRKokIBgHU8cGuhQx5ZObtqtxamICN0aXOpm3eIg2C1xS4dCMhQasSVRIl5R4Q4auBuE97CHz\u002BEuJS3xv3yP733v///\u002B7/smGEH98LsCCYC8yJIJgIRkeAOVhYJjWUaIUmr4FjKCcRAXSgmhVCSUevO\u002BpUqLj1UUCRsgd4XhP9BHzjIR7DzfwFtZD6JI2NcIhk2OgZbFRLL5sgqAt7IeDNMw6huQCTS/tGnGLYK\u002BSZEy3l2H1eUK1mwBEth5tT3eQhxLqgfv6EzXWL3nsbVWpmnX2Pl4TO8sxCu5l7VXCZLUQussoCX3EEh6skfjVEcPt\u002BjlffZO6ogExDgCmaRx/yAkOrTpHHWpn7VoHroEHBPNNDiWnbQoMeA6AQlsPtum265jWZtEn4rE5wGR5sMvC6PvEA\u002ByncjEcgDqZ10FnZrqnjaRcZfqYhtXtDC0FWQYIGUDzl303gIlrYAcmVcOIGxXMWWTct5FyhBb73LfqCH8DuKbA0EBKX30AVTyXrqdww7UyYYyHTPjS6njQUzJ7vD64QfkiYMMAwrTPk\u002BXypTnC8iRtZ68o/VezN12kHIAss/MpI9BjPwD/a8Gj57s4c3f5MFCkTnXJfmrQQL9H7/pfW6SKyy/ToWlwJ3yKeUl9qyJbrrU2yb7b3dxb7mYU2b6cZm6yBZcK3qrE7U1XWGWqCzqtNsgQsAG/4aDkRg0jsJUJAGRAOiXU5jIrACwu2Sq5rmDH\u002BtYGgSahW6ZoFujZVfwD3JCJs/5kA3VAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-18T15:26:01.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\OurKids\\Index.cshtml",
-              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids\\Index.cshtml",
-              "RelativeToolTip": "Pages\\OurKids\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "-Viewer.asp",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\1998-07_MasseyPix\\-Viewer.asp",
+              "RelativeDocumentMoniker": "wwwroot\\Photos\\Events\\1998-07_MasseyPix\\-Viewer.asp",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\Photos\\Events\\1998-07_MasseyPix\\-Viewer.asp",
+              "RelativeToolTip": "wwwroot\\Photos\\Events\\1998-07_MasseyPix\\-Viewer.asp",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJQSURBVDhPdZIxaBNRGMd/TU\u002B4gw530MIdVPAgFRKokIBgHU8cGuhQx5ZObtqtxamICN0aXOpm3eIg2C1xS4dCMhQasSVRIl5R4Q4auBuE97CHz\u002BEuJS3xv3yP733v///\u002B7/smGEH98LsCCYC8yJIJgIRkeAOVhYJjWUaIUmr4FjKCcRAXSgmhVCSUevO\u002BpUqLj1UUCRsgd4XhP9BHzjIR7DzfwFtZD6JI2NcIhk2OgZbFRLL5sgqAt7IeDNMw6huQCTS/tGnGLYK\u002BSZEy3l2H1eUK1mwBEth5tT3eQhxLqgfv6EzXWL3nsbVWpmnX2Pl4TO8sxCu5l7VXCZLUQussoCX3EEh6skfjVEcPt\u002BjlffZO6ogExDgCmaRx/yAkOrTpHHWpn7VoHroEHBPNNDiWnbQoMeA6AQlsPtum265jWZtEn4rE5wGR5sMvC6PvEA\u002ByncjEcgDqZ10FnZrqnjaRcZfqYhtXtDC0FWQYIGUDzl303gIlrYAcmVcOIGxXMWWTct5FyhBb73LfqCH8DuKbA0EBKX30AVTyXrqdww7UyYYyHTPjS6njQUzJ7vD64QfkiYMMAwrTPk\u002BXypTnC8iRtZ68o/VezN12kHIAss/MpI9BjPwD/a8Gj57s4c3f5MFCkTnXJfmrQQL9H7/pfW6SKyy/ToWlwJ3yKeUl9qyJbrrU2yb7b3dxb7mYU2b6cZm6yBZcK3qrE7U1XWGWqCzqtNsgQsAG/4aDkRg0jsJUJAGRAOiXU5jIrACwu2Sq5rmDH\u002BtYGgSahW6ZoFujZVfwD3JCJs/5kA3VAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-18T15:25:34.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Home.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Home.cshtml",
+              "RelativeToolTip": "Pages\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T06:23:07.046Z"
+              "WhenOpened": "2026-05-07T12:01:53.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Home\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home\\Index.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Home\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Home\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:58:53.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Current.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Current.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Current.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Current.cshtml",
+              "RelativeToolTip": "Pages\\Current.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T13:14:23.849Z"
             },
             {
               "$type": "Document",
@@ -145,26 +285,14 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADgv3wAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T06:21:54.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAAANQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-24T06:18:42.604Z",
+              "WhenOpened": "2026-02-24T06:21:54.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "OurKids.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\OurKids.cshtml.cs",
@@ -176,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "OurKids.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids.cshtml",
               "RelativeDocumentMoniker": "Pages\\OurKids.cshtml",
@@ -187,24 +315,92 @@
               "WhenOpened": "2026-02-23T17:41:41.926Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T12:03:23.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\OurKids\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\OurKids\\Index.cshtml",
+              "RelativeToolTip": "Pages\\OurKids\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T06:23:07.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAANQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-24T06:18:42.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-24T06:25:41.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
+              "Title": "Event.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\Event.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Event.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\Event.cshtml",
+              "RelativeToolTip": "Pages\\Event.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T10:44:45.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SiteFlagsService.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Services\\SiteFlagsService.cs",
+              "RelativeDocumentMoniker": "Services\\SiteFlagsService.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Services\\SiteFlagsService.cs",
+              "RelativeToolTip": "Services\\SiteFlagsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:41:55.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CurrentItem.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Pages\\CurrentItem.cshtml",
+              "RelativeDocumentMoniker": "Pages\\CurrentItem.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysEvents\\Pages\\CurrentItem.cshtml",
+              "RelativeToolTip": "Pages\\CurrentItem.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T11:11:51.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "OurKidsStore.cs",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysEvents\\Content\\OurKids\\OurKidsStore.cs",
               "RelativeDocumentMoniker": "Content\\OurKids\\OurKidsStore.cs",

@@ -16,21 +16,36 @@
         {
             <div class="card mb-3 shadow-sm">
                 <div class="card-body">
-                    <h5 class="mb-1">@item.Title</h5>
+                    <div class="d-flex gap-3 align-items-start">
 
-                    <div class="text-muted mb-2">
-                        @item.Date.ToString("yyyy-MM-dd")
+                        @if (!string.IsNullOrWhiteSpace(item.Cover))
+                        {
+                            <a asp-page="/CurrentItem" asp-route-slug="@item.Slug">
+                                <img src="@item.Cover"
+                                     class="current-list-thumb"
+                                     alt="@item.Title" />
+                            </a>
+                        }
+
+                        <div class="flex-grow-1">
+                            <h5 class="mb-1">@item.Title</h5>
+
+                            <div class="text-muted mb-2">
+                                @item.Date.ToString("yyyy-MM-dd")
+                            </div>
+
+                            @if (!string.IsNullOrWhiteSpace(item.Summary))
+                            {
+                                <p class="mb-2">@item.Summary</p>
+                            }
+
+                            <a asp-page="/CurrentItem"
+                                   asp-route-slug="@item.Slug">
+                                Read more →
+                            </a>
+                        </div>
+
                     </div>
-
-                    @if (!string.IsNullOrWhiteSpace(item.Summary))
-                    {
-                        <p class="mb-2">@item.Summary</p>
-                    }
-
-                    <a asp-page="/CurrentItem"
-                           asp-route-slug="@item.Slug">
-                        Read more →
-                    </a>
                 </div>
             </div>
         }

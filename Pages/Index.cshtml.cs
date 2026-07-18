@@ -18,9 +18,22 @@ public class IndexModel : PageModel
 
     public CurrentItem? LatestCurrent { get; private set; }
 
+    public bool ShowEventsNewBadge { get; private set; }
+
     public void OnGet()
     {
-        Events = _store.GetAll().Take(9).ToList(); // show latest 9
+        var allEvents = _store.GetAll().ToList();
+
+        Events = allEvents.Take(9).ToList();
+
+        var newestEventDate = allEvents
+            .OrderByDescending(e => e.Date)
+            .Select(e => e.Date)
+            .FirstOrDefault();
+
+        ShowEventsNewBadge =
+            newestEventDate != default &&
+            DateTime.Today <= newestEventDate.AddDays(14);
 
         LatestCurrent = CurrentStore.LoadAll()
             .OrderByDescending(x => x.Date)

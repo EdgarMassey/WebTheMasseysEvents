@@ -86,9 +86,20 @@
 
 
         <div class="col-md-4">
-            <div class="card shadow-sm  text-center position-relative h-100">
+            <div class="card shadow-sm text-center position-relative h-100">
                 <div style="font-size: 1.6rem;">📅</div>
-                <h3 class="mt-2 mb-0">Events and pictures</h3>
+
+                <h3 class="mt-2 mb-0">
+                    Events and pictures
+                </h3>
+
+                @if (Model.ShowEventsNewBadge)
+                {
+                    <div class="mt-2">
+                        <span class="badge bg-success">NEW</span>
+                    </div>
+                }
+
                 <a href="/events" class="stretched-link"></a>
             </div>
         </div>
@@ -111,7 +122,7 @@
             </div>
         </div>
     </div>
-    <img src="http://www.themasseys.net/Familypix/Writings.asp?id=Events"
+    <img src="https://www.themasseys.net/Familypix/Writings.asp?id=Events"
          alt=""
          style="display:none" />
 </div>
