@@ -5,89 +5,86 @@
 
     <!-- Header -->
     <div class="text-center mb-5">
-        <h1 class="display-5 fw-bold">The Swedish Massey Family blog</h1>
-            </div>
+        <h1 class="display-5 fw-bold">
+            The Swedish Massey Family blog
+        </h1>
+    </div>
+
     @*
-            <p class="privacy-quote">
-                The Events and Pictures full option includes approximately 9000 pictures collected monthly over 28 years of our family life.
-            These pictures are organized by year and month, allowing those interested to  explore our family's journey through these years. 'Highlights' selects all events with text info.
-    
+    <p class="privacy-quote">
+        The Events and Pictures full option includes approximately 9000 pictures
+        collected monthly over 28 years of our family life.
+
+        These pictures are organized by year and month, allowing those interested
+        to explore our family's journey through these years. 'Highlights' selects
+        all events with text info.
     </p>
     *@
-    <!-- Top navigation cards -->
+
+    <!-- Clickable family image -->
+    <div class="text-center mb-4">
+        <button type="button"
+                class="index-footer-link p-0 border-0 bg-transparent"
+                data-bs-toggle="modal"
+                data-bs-target="#indexImageModal"
+                aria-label="Open image full size">
+
+            <img src="/Photos/Us2026.jpg"
+                 alt="Family photo"
+                 class="index-footer-image fade-in" />
+        </button>
+    </div>
+
+    <!-- Navigation cards -->
     <div class="row g-4 mb-5">
-        <!-- Clickable image UNDER the cards -->
-         
-<div class="text-center mt-4">
-    <button type="button"
-            class="index-footer-link p-0 border-0 bg-transparent"
-            data-bs-toggle="modal"
-            data-bs-target="#indexImageModal"
-            aria-label="Open image full size">
-        <img src="/Photos/Us2026.jpg"
-             alt="Family photo"
-             class="index-footer-image fade-in" />
-    </button>
-</div>
- 
+
+        <!-- Our Kids -->
         <div class="col-md-4">
             <div class="card shadow-sm text-center position-relative h-100">
-                <div style="font-size: 1.6rem;">👨‍👩‍👧‍👦</div>
-                <h3 class="mt-2 mb-0">Our Kids</h3>
 
-                <a href="/OurKids" class="stretched-link"></a>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card shadow-sm text-center position-relative h-100"
-                 style="cursor:pointer;"
-                 onclick="window.location.href='/Current';">
+                <div style="font-size: 1.6rem;">
+                    👨‍👩‍👧‍👦
+                </div>
 
-                <div style="font-size: 1.6rem;">🕒</div>
-                <h3 class="mt-2 mb-0">Current Focus</h3>
+                <h3 class="mt-2 mb-0">
+                    Our Kids
+                </h3>
 
-                @if (Model.LatestCurrent != null &&
-                             (DateTime.Today - Model.LatestCurrent.Date).TotalDays <= 7)
-                {
-                    <div class="mt-2">
-                        <span class="badge bg-success">NEW</span>
-                    </div>
-                }
+                <a asp-page="/OurKids"
+                   class="stretched-link"
+                   aria-label="Open Our Kids">
+                </a>
 
-                @if (Model.LatestCurrent != null)
-                {
-                    <div class="text-muted mt-2" style="font-size:0.9rem;">
-                        @Model.LatestCurrent.Date.ToString("yyyy-MM-dd")
-                    </div>
-                    <div class="mt-1 px-2">
-                        @Model.LatestCurrent.Title
-                    </div>
-
-                    <div class="mt-2">
-                        <a href="/Current/@Model.LatestCurrent.Slug"
-                               class="fw-semibold"
-                               onclick="event.stopPropagation();">
-                            Open latest →
-                        </a>
-                    </div>
-                }
-                else
-                {
-                    <div class="text-muted mt-2" style="font-size:0.9rem;">
-                        No updates yet
-                    </div>
-                }
             </div>
         </div>
 
-
-
-
-
+        <!-- Our Home -->
         <div class="col-md-4">
             <div class="card shadow-sm text-center position-relative h-100">
-                <div style="font-size: 1.6rem;">📅</div>
+
+                <div style="font-size: 1.6rem;">
+                    🏠
+                </div>
+
+                <h3 class="mt-2 mb-0">
+                    Our Home
+                </h3>
+
+                <a asp-page="/Home"
+                   class="stretched-link"
+                   aria-label="Open Our Home">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Events and pictures -->
+        <div class="col-md-4">
+            <div class="card shadow-sm text-center position-relative h-100">
+
+                <div style="font-size: 1.6rem;">
+                    📅
+                </div>
 
                 <h3 class="mt-2 mb-0">
                     Events and pictures
@@ -96,33 +93,47 @@
                 @if (Model.ShowEventsNewBadge)
                 {
                     <div class="mt-2">
-                        <span class="badge bg-success">NEW</span>
+                        <span class="badge bg-success">
+                            NEW
+                        </span>
                     </div>
                 }
 
-                <a href="/events" class="stretched-link"></a>
+                <a href="/events"
+                   class="stretched-link"
+                   aria-label="Open Events and pictures">
+                </a>
+
             </div>
         </div>
 
-    </div> <!-- end row -->
-    
+    </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="indexImageModal" tabindex="-1" aria-hidden="true">
+    <!-- Family image modal -->
+    <div class="modal fade"
+         id="indexImageModal"
+         tabindex="-1"
+         aria-hidden="true">
+
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-transparent border-0">
+
                 <button type="button"
                         class="btn-close btn-close-white ms-auto me-2 mt-2"
                         data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                        aria-label="Close">
+                </button>
 
                 <img src="/Photos/Us2026.jpg"
                      class="img-fluid rounded"
                      alt="Family photo full size" />
+
             </div>
         </div>
     </div>
+
     <img src="https://www.themasseys.net/Familypix/Writings.asp?id=Events"
          alt=""
          style="display:none" />
+
 </div>

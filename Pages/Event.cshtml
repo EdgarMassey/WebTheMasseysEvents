@@ -17,23 +17,29 @@
             <span> • @Model.Event!.Location</span>
         }
     </div>
-            
-     @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
+    @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
     {
-        <div class="mt-3 event-cover-wrapper">
+        <div class="mt-3">
             <button type="button"
-                    class="btn p-0 border-0 text-start event-cover-btn"
+                    class="btn p-0 border-0 text-start"
                     style="background:transparent;"
                     data-bs-toggle="modal"
                     data-bs-target="#photoModal"
                     data-fullsrc="@Model.CoverUrl"
                     data-caption="@Model.Event!.Title">
+
                 <img src="@Model.CoverUrl"
-                     class="img-fluid rounded shadow-sm event-cover-img"
+                     class="rounded shadow-sm"
+                     style="display:block;
+                width:auto;
+                max-width:100%;
+                height:auto;
+                max-height:400px;
+                object-fit:contain;"
                      alt="cover" />
             </button>
         </div>
-    } 
+    }
 
     
 
@@ -108,9 +114,13 @@
 
                 <div class="modal-body text-center p-0 position-relative">
                     <img id="photoModalImg"
-                         class="img-fluid rounded"
+                         class="rounded"
                          alt="photo full"
-                         style="cursor: zoom-out;"
+                         style="max-width:800px;
+                    max-height:80vh;
+                    width:auto;
+                    height:auto;
+                    cursor:zoom-out;"
                          data-bs-dismiss="modal" />
 
                     <div id="photoModalCaption"
