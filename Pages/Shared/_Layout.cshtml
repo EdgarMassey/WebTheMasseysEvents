@@ -1,31 +1,88 @@
 ﻿@using WebTheMasseysEvents.Services
 @using System.Text.Json
+@using System.Globalization
+
 @inject SiteFlagsService SiteFlags
+@inject IWebHostEnvironment WebHostEnvironment
+
+@{
+    var currentFolder = System.IO.Path.Combine(
+        WebHostEnvironment.ContentRootPath,
+        "Content",
+        "Current"
+    );
+
+    var today = DateTime.Today;
+    var twoWeeksAgo = today.AddDays(-14);
+
+    bool hasRecentCurrentFile =
+        Directory.Exists(currentFolder) &&
+        Directory.EnumerateFiles(currentFolder, "*.md")
+            .Any(file =>
+            {
+                var dateLine = File.ReadLines(file)
+                    .FirstOrDefault(line =>
+                        line.TrimStart().StartsWith(
+                            "date:",
+                            StringComparison.OrdinalIgnoreCase
+                        )
+                    );
+
+                if (dateLine == null)
+                                       return false;
+
+                var dateText = dateLine
+                    .Split(':', 2)[1]
+                    .Trim();
+
+                return DateTime.TryParseExact(
+                    dateText,
+                    "yyyy-MM-dd",
+                    CultureInfo.InvariantCulture,
+                    DateTimeStyles.None,
+                    out var fileDate
+                )
+                && fileDate >= twoWeeksAgo
+                && fileDate <= today;
+            });
+}
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <script>
-            document.documentElement.classList.add('js');
+        document.documentElement.classList.add('js');
     </script>
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
     <title>@ViewData["Title"] - WebTheMasseysEvents</title>
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> 
-    <link rel="stylesheet" href="~/WebTheMasseysEvents.styles.css" asp-append-version="true" />
-   
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="~/WebTheMasseysEvents.styles.css"
+          asp-append-version="true" />
 </head>
 
 <body data-page="@(ViewData["BodyDataPage"] ?? "")"
       data-kid-slug="@(ViewData["BodyDataKidSlug"] ?? "")">
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-light mb-4 family-navbar">
-
             <div class="container">
 
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                <a class="navbar-brand"
+                   asp-area=""
+                   asp-page="/Index">
                     WebTheMasseysEvents
                 </a>
 
@@ -36,45 +93,74 @@
                         aria-controls="mainNavbar"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
+
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="mainNavbar">
+                <div class="collapse navbar-collapse"
+                     id="mainNavbar">
+
                     <ul class="navbar-nav flex-grow-1">
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Index">Home</a>
+                            <a class="nav-link text-dark"
+                               asp-page="/Index">
+                                Home
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Current">Current Focus</a>
+                            <a class="nav-link"
+                               style="@(hasRecentCurrentFile ? "color: black !important;" : "")"
+                               asp-page="/Current">
+                                Current reflections
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/OurKids">Our Kids</a>
+                            <a class="nav-link text-dark"
+                               asp-page="/OurKids">
+                                Our Kids
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Home">Our Home</a>
+                            <a class="nav-link text-dark"
+                               asp-page="/Home">
+                                Our Home
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/events">Events and pictures</a>
+                            <a class="nav-link text-dark"
+                               href="/events">
+                                Events and pictures
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Poetry/Index">English Poetry</a>
+                            <a class="nav-link text-dark"
+                               asp-page="/Poetry/Index">
+                                English Poetry
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/videos">Videos</a>
+                            <a class="nav-link text-dark"
+                               href="/videos">
+                                Videos
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Privacy">Site info</a>
+                            <a class="nav-link text-dark"
+                               asp-page="/Privacy">
+                                Site info
+                            </a>
                         </li>
+
                     </ul>
                 </div>
-
             </div>
         </nav>
     </header>
@@ -82,9 +168,11 @@
     <div class="container">
 
         <script>
-                    window.SITE_FLAGS = {
-                        kidsNewVersion: @Html.Raw(JsonSerializer.Serialize(SiteFlags.KidsNewVersion))
-                    };
+            window.SITE_FLAGS = {
+                kidsNewVersion: @Html.Raw(
+                    JsonSerializer.Serialize(SiteFlags.KidsNewVersion)
+                )
+            };
         </script>
 
         <main role="main" class="pb-3">
@@ -97,19 +185,17 @@
         <div class="container">
             &copy; Version 20260821b - WebTheMasseysEvents -
             <a asp-area="" asp-page="/Privacy">Site info</a>
-
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js"
+            asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-    
+
 </body>
 </html>
-
-
-

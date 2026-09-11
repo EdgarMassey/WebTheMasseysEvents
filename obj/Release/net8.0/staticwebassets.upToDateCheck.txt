@@ -139,7 +139,7 @@ wwwroot\Photos\OurKids\Alfons\William\20260112William.jpg
 wwwroot\Photos\OurKids\Alfons\AlfonsHouse.jpg
 wwwroot\Photos\OurKids\Alfons\AlfonsAndFamily.jpg
 wwwroot\Photos\OldHouse.jpg
-wwwroot\Photos\Memories.jpg
+wwwroot\css\site.css
 wwwroot\Photos\MakingMemories.jpg
 wwwroot\Photos\Home\Interior\Övregästrum.jpg
 wwwroot\Photos\Home\Interior\Vårtsovrum2.jpg
@@ -173,7 +173,6 @@ wwwroot\Photos\Home\Exterior\202505OurStreet2.jpg
 wwwroot\Photos\Home\Exterior\20250101Baksidan.jpg
 wwwroot\Photos\Home\Exterior\20240510AirialFramsidan.jpg
 wwwroot\Photos\FamilyEvents.jpg
-wwwroot\css\site.css
 wwwroot\Photos\Events\2025-09\ADinnerInTheirNewRoom.jpg
 wwwroot\Photos\Events\2025-09\BirthdayGirlAndHerMom.jpg
 wwwroot\Photos\Events\2025-09\CloseupOfaLittleWildBoar.jpg
@@ -9524,22 +9523,15 @@ wwwroot\Photos\Events\1998-06_Family\Emma summer 98.jpg
 wwwroot\Photos\Events\1998-06_Family\Ellen summer 98.jpg
 wwwroot\Photos\Events\1998-06_Family\Eleanore summer 98.jpg
 wwwroot\Photos\Events\1998-06_Family\Alfons summer 98.jpg
-wwwroot\Photos\Current\Niklas40th\WatchingMello.jpg
-wwwroot\Photos\Current\Niklas40th\NiklasBrothers.jpg
-wwwroot\Photos\Current\Niklas40th\NiklasBirthday.jpg
-wwwroot\Photos\Current\Niklas40th\AWinterDay.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleWithGift.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleLeiaInTheSpa.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleInUmeå.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleInSundsvall.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleEmmaAndI.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleAndMonica.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleAndIGävle.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleAndI.jpg
-wwwroot\Photos\Current\Mireilles57th\MireilleAndEleanore.jpg
-wwwroot\Photos\Current\Mireilles57th\Mireille.jpg
-wwwroot\Photos\Current\Mireilles57th\Family.jpg
-wwwroot\Photos\Current\Contemplation\Contemplation.jpg
+wwwroot\Photos\Current\ChoiceVsChance\Wrong-Choices-Right-Places.jpg
+wwwroot\Photos\Current\Principles\Principles.png
+wwwroot\Photos\Current\Principles\scale.png
+wwwroot\Photos\Current\Principles\StatementOfPrinciples.jpg
+wwwroot\Photos\Current\UnseenForces\UnseenForces1.jpg
+wwwroot\Photos\Current\UnseenForces\UnseenForces2.png
+wwwroot\Photos\Current\UnseenForces\UnseenForces3.jpg
+wwwroot\Photos\Current\UnseenForces\UnseenForces4.jpg
+wwwroot\Photos\Memories.jpg
 wwwroot\Videos\Extra\RuthiesShadow.mp4
 wwwroot\Videos\Extra\SamAndEdith.mp4
 wwwroot\Videos\Extra\WeddingA.mp4

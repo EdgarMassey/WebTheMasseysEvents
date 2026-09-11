@@ -724,3 +724,7 @@ a.event-link {
     display: block;
     flex-shrink: 0;
 }
+.nav-link.current-new {
+    color: black !important;
+    font-weight: 500;
+}
