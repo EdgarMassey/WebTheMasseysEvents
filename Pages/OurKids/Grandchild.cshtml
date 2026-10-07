@@ -28,7 +28,7 @@
         {
             <div class="kid-gallery kid-gallery-grid">
 
-                @foreach (var file in Model.Photos)
+                @foreach (var file in Model.Photos.OrderByDescending(f => f, System.StringComparer.OrdinalIgnoreCase))
                 {
                     var url = $"/Photos/OurKids/{Model.ParentSlug}/{Model.ChildSlug}/{file}";
                     var label = System.IO.Path.GetFileNameWithoutExtension(file);
