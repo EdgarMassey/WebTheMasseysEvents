@@ -8,9 +8,13 @@
     <div class="poetry-grid">
         @foreach (var url in Model.ImageUrls)
         {
-            <button class="poetry-thumb" type="button" data-bs-toggle="modal" data-bs-target="#poetryModal"
-                    data-full="@url" aria-label="Open poem">
-                <img src="@url" alt="Poem" loading="lazy" />
+            var fileName = System.Uri.UnescapeDataString(System.IO.Path.GetFileNameWithoutExtension(url));
+
+            <button class="poetry-thumb" type="button" data-bs-toggle="modal"
+                    data-bs-target="#poetryModal" data-full="@url"
+                    aria-label="Open poem @fileName">
+                <img src="@url" alt="" loading="lazy" />
+                <span class="d-block text-center text-break mt-2 small text-muted">@fileName</span>
             </button>
         }
     </div>
