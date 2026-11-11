@@ -728,3 +728,9 @@ a.event-link {
     color: black !important;
     font-weight: 900;
 }
+.quotes-grid .poetry-thumb img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+}

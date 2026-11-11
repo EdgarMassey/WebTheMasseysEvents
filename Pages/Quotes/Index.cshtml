@@ -1,0 +1,38 @@
+﻿@page "/quotes"
+@model WebTheMasseysEvents.Pages.Quotes.IndexModel
+<div class="container py-4">
+    <h1>Quotes</h1>
+    <p class="text-muted">Click a quote to view full size.<br> Senaste inlagda poster visas först!</p>
+
+    <div class="poetry-grid quotes-grid">
+        @foreach (var url in Model.ImageUrls)
+        {
+            var fileName = System.Uri.UnescapeDataString(System.IO.Path.GetFileNameWithoutExtension(url));
+
+            <button class="poetry-thumb" type="button" data-bs-toggle="modal"
+                    data-bs-target="#poetryModal" data-full="@url"
+                    aria-label="Open poem @fileName">
+                <img src="@url" alt="" loading="lazy" />
+                <span class="d-block text-center text-break mt-2 small text-muted">@fileName</span>
+            </button>
+        }
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="poetryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Poem</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+                <img id="poetryModalImg" src="" alt="Poem full size" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+ 

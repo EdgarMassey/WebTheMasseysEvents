@@ -9847,3 +9847,4 @@ wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot on h
 wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot 2.jpg
 wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille at the jump.jpg
 wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille and the jeep.jpg
+wwwroot\Photos\Quotes\20261110 ObamaEmpathy.jpg
