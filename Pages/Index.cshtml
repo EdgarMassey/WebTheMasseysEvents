@@ -21,7 +21,7 @@
     </p>
     *@
 
-    <!-- Clickable family image -->
+    <!-- Clickable family image and description -->
     <div class="text-center mb-4">
         <button type="button"
                 class="index-footer-link p-0 border-0 bg-transparent"
@@ -29,10 +29,15 @@
                 data-bs-target="#indexImageModal"
                 aria-label="Open image full size">
 
-            <img src="/Photos/Us2026.jpg"
-                 alt="Family photo"
+            <img src="@Model.StartPictureUrl"
+                 alt="@Model.StartPictureAlt"
                  class="index-footer-image fade-in" />
         </button>
+
+        @if (!string.IsNullOrWhiteSpace(Model.StartPictureDescription))
+        {
+            <p class="mt-3 mb-0" style="white-space: pre-line;">@Model.StartPictureDescription</p>
+        }
     </div>
 
     <!-- Navigation cards -->
@@ -124,9 +129,9 @@
                         aria-label="Close">
                 </button>
 
-                <img src="/Photos/Us2026.jpg"
+                <img src="@Model.StartPictureUrl"
                      class="img-fluid rounded"
-                     alt="Family photo full size" />
+                     alt="@Model.StartPictureAlt" />
 
             </div>
         </div>
